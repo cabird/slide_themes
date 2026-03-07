@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Quiet Return — Rewilding & Ecological Restoration</title>
+  <!-- Load theme fonts from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400&family=Source+Sans+3:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Reveal.js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css">
+  <style>body { margin: 0; background: #FFFFFF; }</style>
+</head>
+<body>
+  <div class="reveal"><div class="slides"></div></div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script type="module">
+    import { run } from '../slides.js';
+    await run();
+    Reveal.initialize({
+      width: 1920, height: 1080, center: false,
+      hash: true, slideNumber: true, transition: 'none',
+      controls: false, progress: false, margin: 0,
+    });
+    console.log('SlideKit loaded. Scene model at window.sk');
+  </script>
+</body>
+</html>

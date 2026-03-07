@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Streamline — Linear Theme</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css">
+  <style>body { margin: 0; background: #0A0B0F; }</style>
+</head>
+<body>
+  <div class="reveal"><div class="slides"></div></div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script type="module">
+    import { run } from './slides_bundle.js';
+    await run();
+    Reveal.initialize({
+      width: 1920, height: 1080, center: false,
+      hash: true, slideNumber: true, transition: 'none',
+      controls: false, progress: false, margin: 0,
+    });
+    console.log('SlideKit loaded. Scene model at window.sk');
+  </script>
+</body>
+</html>

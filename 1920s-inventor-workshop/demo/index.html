@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Craft of Instrument Making — 1920s Inventor Workshop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css">
+  <style>body { margin: 0; background: #0F1113; }</style>
+</head>
+<body>
+  <div class="reveal"><div class="slides"></div></div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script type="module">
+    import { run } from '../slides.js';
+    await run();
+    Reveal.initialize({
+      width: 1920, height: 1080, center: false,
+      hash: true, slideNumber: true, transition: 'none',
+      controls: false, progress: false, margin: 0,
+    });
+    console.log('SlideKit loaded. Scene model at window.sk');
+  </script>
+</body>
+</html>
