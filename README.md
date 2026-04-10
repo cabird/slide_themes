@@ -4,6 +4,10 @@ A collection of 15 presentation themes built on [SlideKit](https://github.com/ca
 
 Each theme includes a full design specification, a working example deck, pre-built demo files, and slide preview thumbnails.
 
+## Viewing a theme
+
+Browse slide previews for all themes in [THEMES.md](THEMES.md), or open the PDF in each theme's `demo/` directory.
+
 ## Themes
 
 | Theme | Vibe | Best for |
@@ -44,9 +48,7 @@ See [THEMES.md](THEMES.md) for detailed descriptions and slide previews of each 
 - **theme.md** — The complete style specification: color palette, typography, spacing, component library, slide template catalog, and do's/don'ts. This is what you read to create new presentations in the theme.
 - **slides.js** — A working example deck that imports SlideKit and defines slides as positioned elements.
 
-## Viewing a theme
 
-Browse slide previews for all themes in [THEMES.md](THEMES.md), or open the PDF in each theme's `demo/` directory.
 
 ## Using a theme
 
